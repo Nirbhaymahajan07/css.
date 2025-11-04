@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Postion Property</title>
+   <style>
+    * {
+           margin:0; padding: 0;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: seagreen;
+            margin: 5px;
+        }
+        #box1{
+        position: static;
+        }
+        #box2{
+        position: relative;
+        top: 10px;
+        left: 60px;
+        }
+        #box3{
+        position: absolute;  
+        }
+        #box4{
+        position: fixed;
+        }
+   </style>
+</head>
+<body>
+     <div id="box1" class="box">Box1</div>
+     <div id="box2" class="box">Box2</div>
+     <div id="box3" class="box">Box3</div>
+     <div id="box4" class="box">Box4</div>
+</body>
+</html>
